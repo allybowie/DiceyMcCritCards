@@ -38,7 +38,7 @@ padding: 0;
 .container {
     min-height: 93px;
     height: fit-content;
-    /* width: 80% */
+    width: 80%
 
     /* display: flex; */
     /* flex-direction: column; */

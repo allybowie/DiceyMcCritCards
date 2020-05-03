@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="critHitContainer">
+      <p class="hitTitle">Critical Hit</p>
       <div class="leftButtonContainer">
       <p v-on:click="drawCriticalHitCard" class="draw">Draw Card</p>
       <p v-on:click="setCritHitDeck" class="shuffle">Shuffle Deck</p>
@@ -13,6 +14,8 @@
     
     
       <div class="critFumbleContainer">
+              <p class="FumbleTitle">Critical Fumble</p>
+
         <div class="rightButtonContainer">
           <p v-on:click="drawCriticalFumbleCard" class="draw">Draw Card</p>
       <p v-on:click="setCritFumbleDeck" class="shuffle">Shuffle Deck</p>
@@ -126,27 +129,49 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
   display: flex;
-  width: 100%
+  width: 100%;
+  padding: 0
+}
+
+.hitTitle {
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+  width: 50%;
+  margin-left: 15%
+}
+
+.FumbleTitle {
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+  width: 50%;
+  margin-left: 15%;
 }
 
 .critHitContainer {
   width: 40%;
-  margin-left: 10%;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
 }
 
 .critFumbleContainer {
   width: 40%;
-  margin-left: 10%;
+  /* margin-right: 5%; */
   display: flex;
   flex-direction: column;
 }
@@ -172,12 +197,14 @@ export default {
 }
 
 .cardContainer {
-  height: 600px
+  height: 600px;
+  margin-top: 2%;
 }
 
 .leftButtonContainer {
   width: 60%;
   margin-left: 12%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-between;
 }
@@ -185,6 +212,7 @@ export default {
 .rightButtonContainer {
   width: 60%;
   margin-left: 12%;
+  margin-top: 2%;
   display: flex;
   justify-content: space-between;
 }
