@@ -7,7 +7,8 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import CriticalHitDeck from "./data/CriticalHitDeck.json"
+// import CriticalHitDeck from "./data/CriticalHitDeck.json"
+import CriticalFumbleDeck from "./data/CriticalFumbleDeck.json"
 
 export default {
   name: 'App',
@@ -15,7 +16,7 @@ export default {
     HelloWorld
   },
   mounted() {
-    console.log("CRITICAL HIT DATA", CriticalHitDeck)
+    console.log("CRITICAL FUMBLE DATA", CriticalFumbleDeck.Cards)
   }
 }
 </script>

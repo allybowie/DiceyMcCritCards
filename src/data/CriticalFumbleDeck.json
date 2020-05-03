@@ -1,0 +1,958 @@
+{
+    "Cards": [
+        {
+            "Melee": {
+                "Name": "Meant To Do That",
+                "Effect": "You are moved 10' in a random direction (determined by the GM). This movement triggers reactions"
+            },
+            "Ranged": {
+                "Name": "Misjudged The Distance",
+                "Effect": "Until the end of your next turn, all your ranged increment penalties are doubled"
+            },
+            "Unarmed": {
+                "Name": "Not The Weak Point",
+                "Effect": "You take 1d6 persistent bleed damage and can't use this attack until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "How Did That Happen?",
+                "Effect": "You call forth a mist with the effects of Stinking Cloud centered on a corner of your space (determined randomly by the GM)"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Wrong End",
+                "Effect": "If you are using a slashing weapon, you take 1d6 slashing damage and 1 persistent bleed damage"
+            },
+            "Ranged": {
+                "Name": "Phantom Wind",
+                "Effect": "You take a -2 circumstance penalty to ranged attacks until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Overthink It",
+                "Effect": "Your target gains a +2 circumstance bonus to AC against attacks you make against it until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Power Down",
+                "Effect": "Until healed, you are Stupefied 2"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Bad Fall",
+                "Effect": "You fall prone and are Slowed 1 until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Spraining Shot",
+                "Effect": "Until healed, you take a -10' circumstance penalty to your Land Speed and are Clumsy 1"
+            },
+            "Unarmed": {
+                "Name": "Bad Jam",
+                "Effect": "You are Clumsy 1 and Enfeebled 2"
+            },
+            "Spell": {
+                "Name": "Exploding Skull",
+                "Effect": "You must attempt a Fortitude save. If you succeed, you take 3d6 mental damage. If you fail, your head explodes and you die"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Wait, What?",
+                "Effect": "You are Confused"
+            },
+            "Ranged": {
+                "Name": "Don't Hit Me!",
+                "Effect": "Until the end of your next turn, each time you miss with a ranged attack targeting enemies adjacent to any of your allies, you hit one of those adjacent allies instead (determined randomly by the GM)"
+            },
+            "Unarmed": {
+                "Name": "Pinched Nerve",
+                "Effect": "Until healed, you take a -10' circumstance penalty to Land Speed and are Clumsy 1"
+            },
+            "Spell": {
+                "Name": "Mental Slip",
+                "Effect": "You are controlled by the target until the end of your next turn"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Bad Grip",
+                "Effect": "You take a -2 circumstance penalty to attack rolls with this weapon until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Huh?",
+                "Effect": "You are confused"
+            },
+            "Unarmed": {
+                "Name": "Eye Strain",
+                "Effect": "You are Dazzled until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Blastoff",
+                "Effect": "You must succeed at a Will saveing throw or be thrown 1d6x5 feet into the air (or in a random direction determined by the GM if you are flying)"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Eat Dirt",
+                "Effect": "You fall prone and are blinded until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Overcompensate",
+                "Effect": "Cover provides a +4 circumstance bonus to AC against your ranged attacks for one minute"
+            },
+            "Unarmed": {
+                "Name": "That Tastes Awful!",
+                "Effect": "If this was a jaws attack (or similar), you are Sickened 3"
+            },
+            "Spell": {
+                "Name": "Strange Transference",
+                "Effect": "Lose one prepared spell or spell slot, determined randomly by the GM. Your target can cast this spell on its next turn even if they can't cast spells, using your level, spell attack modifier, and spell DC"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Vibration",
+                "Effect": "If you're using a bludgeoning weapon, you drop that weapon and become Enfeebled 2 until healed"
+            },
+            "Ranged": {
+                "Name": "Recoil",
+                "Effect": "You are pushed 5' backwards and fall prone"
+            },
+            "Unarmed": {
+                "Name": "Punctured Foot",
+                "Effect": "You take 1d4 persistent bleed damage. Until this effect ends, you take a -10' circumstance penalty to your Land Speed"
+            },
+            "Spell": {
+                "Name": "Mental Backlash",
+                "Effect": "Until healed, you are Stupefied 3"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Who Was That?",
+                "Effect": "You are Slowed 1 until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Seeing Double",
+                "Effect": "You are Dazzled until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Broken Tooth",
+                "Effect": "Until healed, you take a -2 circumstance penalty to attack rolls"
+            },
+            "Spell": {
+                "Name": "Fragmented Magic",
+                "Effect": "Your target gains the effect of a Mirror Image spell"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Attack The Darkness",
+                "Effect": "Your enemies are concealed from you until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Aim Carefully Next Time",
+                "Effect": "Until the end of your next turn your attacks require an extra action to use"
+            },
+            "Unarmed": {
+                "Name": "Brutal Collision",
+                "Effect": "Attempt a Fortitude saving throw. If you succeed, you're Stunned 1. If you fail, you're Stunned 2"
+            },
+            "Spell": {
+                "Name": "Power Transfer",
+                "Effect": "The highest level beneficial spell effect currently affecting you is transferred to your target"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Off Balance",
+                "Effect": "You take a -2 circumstance penalty to attack rolls until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Friendly Fire",
+                "Effect": "You hit the ally nearest to the target"
+            },
+            "Unarmed": {
+                "Name": "Something's Broken",
+                "Effect": "You take 1d4 bludgeoning damage, and you can't use this attack until healed"
+            },
+            "Spell": {
+                "Name": "Power Drain",
+                "Effect": "You lose one prepared spell or spell slot (determined randomly by the GM)"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Slipped",
+                "Effect": "You fall prone"
+            },
+            "Ranged": {
+                "Name": "Backfire",
+                "Effect": "You hit yourself instead of the target"
+            },
+            "Unarmed": {
+                "Name": "Bruised Ego",
+                "Effect": "You can't attack another creature until the target is knocked out or the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Nosebleed",
+                "Effect": "You take 1 persistent bleed damage"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Second Thoughts",
+                "Effect": "You are Sickened 3"
+            },
+            "Ranged": {
+                "Name": "Mix It Up",
+                "Effect": "You can't make ranged attacks until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Hangnail",
+                "Effect": "If you attacked with a claw or fist, you can't use that attack until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Magic Vacuum",
+                "Effect": "The effects of all beneficial spells affecting you end immediately"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Butterfingers",
+                "Effect": "You drop the weapon you made the attack with"
+            },
+            "Ranged": {
+                "Name": "Snapped String",
+                "Effect": "If the attack used a weapon in the bow group, the string snaps, requiring three Interact actions to fix"
+            },
+            "Unarmed": {
+                "Name": "Torn Muscle",
+                "Effect": "Until healed, you are Enfeebled 1"
+            },
+            "Spell": {
+                "Name": "Magic Fatigue",
+                "Effect": "You can't cast any spells until the end of your next turn"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Notched",
+                "Effect": "Your weapon takes 1d6 damage, ignoring Hardness"
+            },
+            "Ranged": {
+                "Name": "Notched Fingers",
+                "Effect": "You take 1d4 persistent bleed damage"
+            },
+            "Unarmed": {
+                "Name": "Hit The Wall",
+                "Effect": "You are Fatigued"
+            },
+            "Spell": {
+                "Name": "Electrical Feedback",
+                "Effect": "You take 2d6 electricity damage"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Broken Weapon",
+                "Effect": "Your weapon's current Hit Points are reduced to its Broken Threshold. If already broken, the weapon takes 3d6 damage, ignoring Hardness"
+            },
+            "Ranged": {
+                "Name": "My Spleeny Bits!",
+                "Effect": "You become Wounded 1 or your Wounded value increases by 1"
+            },
+            "Unarmed": {
+                "Name": "Frustration",
+                "Effect": "You take a -2 circumstance penalty to attack rolls until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Beastly Rift",
+                "Effect": "Your spell becomes a Summon Animal spell of the same level. The animal attacks you"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Fling",
+                "Effect": "You drop the weapon you used for the attack. It lands 1d6x5 feet away from you in a random direction"
+            },
+            "Ranged": {
+                "Name": "Head Rush",
+                "Effect": "You are Sickened 2"
+            },
+            "Unarmed": {
+                "Name": "Overextended",
+                "Effect": "You trigger reactions as if you had used a Move action"
+            },
+            "Spell": {
+                "Name": "Reflection",
+                "Effect": "The spell hits you instead of the target"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Pulled Muscle",
+                "Effect": "Until healed, you are Enfeebled 2"
+            },
+            "Ranged": {
+                "Name": "Awkward Attack",
+                "Effect": "You are Flat-Footed until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Bit Your Tongue!",
+                "Effect": "You take 1 persistent bleed damage"
+            },
+            "Spell": {
+                "Name": "Spontaneous Combustion",
+                "Effect": "You take 2d6 fire damage"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Overextended",
+                "Effect": "You trigger reactions as if you had used a Move action"
+            },
+            "Ranged": {
+                "Name": "Aching Back",
+                "Effect": "You are Fatigued"
+            },
+            "Unarmed": {
+                "Name": "Upset Stomach",
+                "Effect": "You are sickened 2"
+            },
+            "Spell": {
+                "Name": "Critical Backlash",
+                "Effect": "You critically hit yourself instead of the target"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Awkard Attack",
+                "Effect": "You are Flat-Footed until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Shot Your Eye Out",
+                "Effect": "You critically hit yourself instead of the target"
+            },
+            "Unarmed": {
+                "Name": "Tiring Attack",
+                "Effect": "You are Fatigued"
+            },
+            "Spell": {
+                "Name": "Acidic Backlash",
+                "Effect": "You take 2d6 acid damage"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "This Sword Is Heavy",
+                "Effect": "You are Fatigued"
+            },
+            "Ranged": {
+                "Name": "Errant Aim",
+                "Effect": "Reroll the attack roll, targetting the creature closest to the target (excluding yourself)"
+            },
+            "Unarmed": {
+                "Name": "Awkward Attack",
+                "Effect": "You are Flat-Footed until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Bleeding Eyes",
+                "Effect": "You take 1d6 persistent bleed damage"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Backswing",
+                "Effect": "You deal the attack's normal damage to yourself instead of the target"
+            },
+            "Ranged": {
+                "Name": "Wide Open",
+                "Effect": "You are Flat-Footed until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Tripped",
+                "Effect": "You fall prone"
+            },
+            "Spell": {
+                "Name": "Tangled In Your Gear",
+                "Effect": "You are encumbered until you spend two Interact actions to free yourself"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Wide Open",
+                "Effect": "You are Flat-Footed until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Cracked",
+                "Effect": "The ranged weapon (not the ammunition) you are using takes 1d6 damage, ignoring Hardness"
+            },
+            "Unarmed": {
+                "Name": "Fist Meet Face",
+                "Effect": "You critically hit yourself with the attack"
+            },
+            "Spell": {
+                "Name": "Distance Rift",
+                "Effect": "You are teleported to the nearest space adjacent to your spell's target"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Strained",
+                "Effect": "Until healed, you are Clumsy 2"
+            },
+            "Ranged": {
+                "Name": "Whoops!",
+                "Effect": "You fall prone"
+            },
+            "Unarmed": {
+                "Name": "Out Of Position",
+                "Effect": "You can't use this attack until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Mind Drain",
+                "Effect": "Until healed, you are Stupefied 1"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Too Much Stuff!",
+                "Effect": "You get tangled in your gear and are encumbered until you spend two Interact actions to free yourself"
+            },
+            "Ranged": {
+                "Name": "Sprain",
+                "Effect": "Until healed, you are Clumsy 2"
+            },
+            "Unarmed": {
+                "Name": "Bleeding Fist",
+                "Effect": "You take 1d6 persistent bleed damage"
+            },
+            "Spell": {
+                "Name": "Vertigo",
+                "Effect": "You are Sickened 2"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Spinning Swing",
+                "Effect": "You are Sickened 2"
+            },
+            "Ranged": {
+                "Name": "Nicked",
+                "Effect": "You take 1 persistent bleed damage"
+            },
+            "Unarmed": {
+                "Name": "Twisted Up",
+                "Effect": "You are encumbered until you spend two Interact actions to free yourself"
+            },
+            "Spell": {
+                "Name": "Apprentice Move",
+                "Effect": "Reroll the attack roll, targeting the creature closest to the target (excluding yourself)"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "I Told You It's Sharp!",
+                "Effect": "You take 1d6 persistent bleed damage"
+            },
+            "Ranged": {
+                "Name": "Klutz",
+                "Effect": "You drop the weapon you used"
+            },
+            "Unarmed": {
+                "Name": "Stop Hitting Yourself",
+                "Effect": "You hit yourself instead of the target"
+            },
+            "Spell": {
+                "Name": "Not Me, You Fool!",
+                "Effect": "You hit the ally nearest to the target"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Pin Prick",
+                "Effect": "You take 1 persistent bleed damage"
+            },
+            "Ranged": {
+                "Name": "Spilled Ammo",
+                "Effect": "The ammunition from the weapon you're using falls from its container onto the groun. You can spend one Interact action to pick up one piece of ammunition spilled this way"
+            },
+            "Unarmed": {
+                "Name": "Just A Taste",
+                "Effect": "You hit an ally adjacent to you or the target"
+            },
+            "Spell": {
+                "Name": "Tiring Spell",
+                "Effect": "You are Fatigued"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Armor Smash",
+                "Effect": "You deal the attack's normal damage to your armor, applying Hardness"
+            },
+            "Ranged": {
+                "Name": "Lost Grip",
+                "Effect": "You are Slowed 2 until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Battered",
+                "Effect": "Until healed, you take a -2 circumstance penalty to checks and saving throws"
+            },
+            "Spell": {
+                "Name": "Unexpected Blast",
+                "Effect": "Your spell affects all targets within 30' of you. You are immune to this effect"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Catch Your Breath",
+                "Effect": "You are Slowed 2 until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Wrong Weapon",
+                "Effect": "If you made a thrown attack, you instead throw an object from your gear (determined randomly by the GM)"
+            },
+            "Unarmed": {
+                "Name": "Got Too Close",
+                "Effect": "This attack grants and triggers a Grapple or Grab as a reaction by your enemy"
+            },
+            "Spell": {
+                "Name": "You Made 'Em Stronger",
+                "Effect": "The target gains a +2 status bonus to attack rolls until the end of its next turn"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Grave Miscalculation",
+                "Effect": "You critically hit yourself with the attack"
+            },
+            "Ranged": {
+                "Name": "Kickback Like A Mule",
+                "Effect": "You fall prone"
+            },
+            "Unarmed": {
+                "Name": "Can't Find An Opening",
+                "Effect": "You can't use this attack until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Drawing A Blank",
+                "Effect": "Until healed, you are Stupefied 1"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Stuck",
+                "Effect": "Your weapon is lodged into a nearby surface or item. To free it, you must succeed at a DC 20 Athletics check made as an Interact action"
+            },
+            "Ranged": {
+                "Name": "Archer's Elbow",
+                "Effect": "Until healed, you take a -2 circumstance penalty to ranged attacks"
+            },
+            "Unarmed": {
+                "Name": "Off Balance",
+                "Effect": "You are Slowed 2 until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Spell Shield",
+                "Effect": "The target gains a +2 status bonus to saving throws against spells for one minute"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Bent",
+                "Effect": "Your weapon's current Hit Points are reduced to its Broken Threshold. If already broken, the weapon takes 3d6 damage, ignoring Hardness"
+            },
+            "Ranged": {
+                "Name": "Double Miss",
+                "Effect": "If this attack uses ammunition, you use twice the amount of ammunition on this attack"
+            },
+            "Unarmed": {
+                "Name": "Caught Your Attack",
+                "Effect": "This attack grants and triggers a Trip or Shove as a reaction by your enemy"
+            },
+            "Spell": {
+                "Name": "Left Reeling",
+                "Effect": "You are Stunned 1"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Funny Bone",
+                "Effect": "You drop one item you are holding (determined randomly by the GM)"
+            },
+            "Ranged": {
+                "Name": "Not My Pony!",
+                "Effect": "You hit the nearest animal companion, mount, or familiar"
+            },
+            "Unarmed": {
+                "Name": "Bad Headbutt",
+                "Effect": "You are Stunned 1"
+            },
+            "Spell": {
+                "Name": "Caster's Block",
+                "Effect": "You can't cast this spell again at any level until you rest and make your daily preparations"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Weapon Tangle",
+                "Effect": "You can't use this weapon to attack until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Amazing Miss",
+                "Effect": "You are Stunned 1"
+            },
+            "Unarmed": {
+                "Name": "Bone Bruise",
+                "Effect": "You become Wounded 1 or your Wounded value increases by 1"
+            },
+            "Spell": {
+                "Name": "You Made 'Em Bigger",
+                "Effect": "The target increases in size, with the effects of a 2nd-level Enlarge spell"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Bonk!",
+                "Effect": "You are Stunned 2"
+            },
+            "Ranged": {
+                "Name": "Shot Your Foot",
+                "Effect": "Until healed, you are Clumsy 2 and take a -5' circumstance penalty to your Land Speed"
+            },
+            "Unarmed": {
+                "Name": "Overexertion",
+                "Effect": "You are Fatigued"
+            },
+            "Spell": {
+                "Name": "Side Effect",
+                "Effect": "You are Sickened 1. You are also Stupefied 2 until healed."
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Sorry!",
+                "Effect": "You hit an ally adjacent to you or an ally adjacent to the target"
+            },
+            "Ranged": {
+                "Name": "Lost The Target",
+                "Effect": "You take a -2 circumstance penalty to attack rolls until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Sprain",
+                "Effect": "Until healed, you are Clumsy 2"
+            },
+            "Spell": {
+                "Name": "Weakened",
+                "Effect": "You take a -2 circumstance penalty to spell attack rolls and spell DCs until the end of your next turn"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Better To Give",
+                "Effect": "You hit yourself instead of the target"
+            },
+            "Ranged": {
+                "Name": "Weapon Problem",
+                "Effect": "If the attack used a projectile weapon, something on the weapon malfunctions, requiring you to spend two Interact actions to fix it"
+            },
+            "Unarmed": {
+                "Name": "Sneeze",
+                "Effect": "You are Slowed 1 until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Spell Rush",
+                "Effect": "You are Stupefied 1 until healed"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Rang Your Own Bell",
+                "Effect": "Until healed, you are Deafened"
+            },
+            "Ranged": {
+                "Name": "Lowered Guard",
+                "Effect": "You provoke reactions as if you used a Move action"
+            },
+            "Unarmed": {
+                "Name": "Ferocious Fumble",
+                "Effect": "You critically hit an ally within your reach (determined randomly by your GM)"
+            },
+            "Spell": {
+                "Name": "The Magic Is Gone",
+                "Effect": "You take a -1 circumstance penalty to attack rolls until your score a critical hit"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "On The Receiving End",
+                "Effect": "You deal damage to yourself instead of the target"
+            },
+            "Ranged": {
+                "Name": "In The Line Of Fire",
+                "Effect": "You critically hit your nearest ally"
+            },
+            "Unarmed": {
+                "Name": "Head, Meet Wall",
+                "Effect": "You are Stunned 1"
+            },
+            "Spell": {
+                "Name": "Can You Hear Me Now?",
+                "Effect": "Until healed, you are Deafened"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Creeping Hesitation",
+                "Effect": "You are Flat-Footed until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Insecure",
+                "Effect": "You take a -1 circumstance penalty to attack rolls until you score a critical hit"
+            },
+            "Unarmed": {
+                "Name": "Great Roar",
+                "Effect": "Until healed, you are Deafened"
+            },
+            "Spell": {
+                "Name": "Error!",
+                "Effect": "You deal the spell's normal damage to yourself instead of the target"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "All Or Nothing",
+                "Effect": "You take a -1 circumstance penalty to attack rolls until you score a critical hit"
+            },
+            "Ranged": {
+                "Name": "Close To The Ear",
+                "Effect": "You are Deafened until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Pins And Needles",
+                "Effect": "You are Sickened 3"
+            },
+            "Spell": {
+                "Name": "Why Me?",
+                "Effect": "You provoke reactions as if you used a Move action"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Winded",
+                "Effect": "You are Fatigued"
+            },
+            "Ranged": {
+                "Name": "Bad Alignment",
+                "Effect": "You take a -2 circumstance penalty to attacks using this weapon until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "It Bit Your Fist",
+                "Effect": "The target deals jaws damage to you"
+            },
+            "Spell": {
+                "Name": "Poor Trade",
+                "Effect": "You hit, but you lose a prepared spell or spell slot or the highest level available (you choose the spell)"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Shield Crash",
+                "Effect": "You deal the attack's normal damage to your shield, applying Hardness"
+            },
+            "Ranged": {
+                "Name": "Everything You Got",
+                "Effect": "You are Fatigued"
+            },
+            "Unarmed": {
+                "Name": "Hard-Edged Adversary",
+                "Effect": "You take 2d6 piercing or slashing damage (determined by the GM)"
+            },
+            "Spell": {
+                "Name": "You Made 'Em Tougher",
+                "Effect": "The target gains resistance 5 to all damage until the start of its next turn"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Hand It Over",
+                "Effect": "Unless you succeed at a Reflex saving throw, your target gains possession of your weapon"
+            },
+            "Ranged": {
+                "Name": "Broken",
+                "Effect": "Your weapon's current Hit Points are reduced to its Broken Threshold. If already broken, the weapon takes 3d6 damage, ignoring Hardness"
+            },
+            "Unarmed": {
+                "Name": "Smash The Floor",
+                "Effect": "You kick up a cloud of dust, becoming Blinded until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "You Made 'Em Faster",
+                "Effect": "The target is Quickened for two rounds"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "This Is Bad",
+                "Effect": "You take 1d10 persistent bleed damage"
+            },
+            "Ranged": {
+                "Name": "What Are The Odds?",
+                "Effect": "If this is a thrown weapon attack and the target can hold the weapon, the target snatches the weapon out of the air and wields it"
+            },
+            "Unarmed": {
+                "Name": "Whirlwind Of Shame",
+                "Effect": "You hit every creature adjacent to you except for the target"
+            },
+            "Spell": {
+                "Name": "Jumbled Components",
+                "Effect": "You are Slowed 2 until the end of your next turn"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Clipped Your Hand",
+                "Effect": "You take 1d8 persistent bleed damage"
+            },
+            "Ranged": {
+                "Name": "Oopsie!",
+                "Effect": "You hit yourself instead of the target"
+            },
+            "Unarmed": {
+                "Name": "Ingrown Nail",
+                "Effect": "You take a -1 circumstance penalty to attack rolls until you score a critical hit"
+            },
+            "Spell": {
+                "Name": "Clatto Verata Necktie",
+                "Effect": "You critically hit your nearest ally"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Decision Paralysis",
+                "Effect": "You are Slowed 1 until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Torn Tendon",
+                "Effect": "Until healed, you are Clumsy 2"
+            },
+            "Unarmed": {
+                "Name": "Stinging Failure",
+                "Effect": "Until healed, you take a -2 circumstance penalty to attack rolls made with this attack"
+            },
+            "Spell": {
+                "Name": "Cursed",
+                "Effect": "You are Doomed 1"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Catastrophic Failure",
+                "Effect": "You fall unconscious until you wake up or the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Overthrow",
+                "Effect": "If the attack used a thrown weapon, the weapon travels three times its range increment in a random direction (determined by the GM)"
+            },
+            "Unarmed": {
+                "Name": "Don't Pick At It",
+                "Effect": "You become Wounded 1 or your Wounded value increases by 1"
+            },
+            "Spell": {
+                "Name": "Magical Smackdown",
+                "Effect": "You automatically fail (but do not critically fail) your next saving throw"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Pointy End Goes There",
+                "Effect": "You become Wounded 1 or your Wounded value increases by 1"
+            },
+            "Ranged": {
+                "Name": "Tunnel Vision",
+                "Effect": "For three roundes, you gain a +1 circumstance bonus to attack rolls, but you are Flat-Footed"
+            },
+            "Unarmed": {
+                "Name": "Head First!",
+                "Effect": "You fall unconscious until you wake up or the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Wild Magic",
+                "Effect": "Roll twice on the 'Rod Of Wonder 'table (Pathfinder Core Rulebook 575). You are the target of those effects"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Broken Haft",
+                "Effect": "Your weapon's current Hit Points are reduced to its Broken Threshold. If already broken, the weapon takes 3d6 damage, ignoring Hardness. If your weapon is a Reach weapon, it loses Reach"
+            },
+            "Ranged": {
+                "Name": "All Thumbs",
+                "Effect": "Until healed, you are Clumsy 1"
+            },
+            "Unarmed": {
+                "Name": "Whiff",
+                "Effect": "You hit yourself instead of the target"
+            },
+            "Spell": {
+                "Name": "Draining Magic",
+                "Effect": "You are Drained 1"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Fog Of War",
+                "Effect": "You are Dazzled until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Bull's Eye",
+                "Effect": "Your attack ricochets and hits you near the eye. You are Blinded until the end of your next turn"
+            },
+            "Unarmed": {
+                "Name": "Jam A Finger",
+                "Effect": "You hit the target for the minimum amount of damage you can deal with the attack. You take the attack's normal damage"
+            },
+            "Spell": {
+                "Name": "Everything To Fear",
+                "Effect": "You are Frightened 3"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Go For The Eyes",
+                "Effect": "You are Dazzled until the end of your next turn"
+            },
+            "Ranged": {
+                "Name": "Pinch A Finger",
+                "Effect": "You take 1d6 persistent bleed damage"
+            },
+            "Unarmed": {
+                "Name": "Winds Of Change",
+                "Effect": "You can't attack the same target again until the end of your next turn"
+            },
+            "Spell": {
+                "Name": "Now I See You...",
+                "Effect": "Your target becomes invisible until the end of its next turn or it uses a hostile action"
+            }
+        },
+        {
+            "Melee": {
+                "Name": "Punt",
+                "Effect": "Your weapon flies 1d4x5 feet in a random direction (determined by the GM)"
+            },
+            "Ranged": {
+                "Name": "So Much Blood",
+                "Effect": "You are Sickened 3"
+            },
+            "Unarmed": {
+                "Name": "Unintentional Move",
+                "Effect": "You are moved 10' in a random direction (determined by the GM). This movement triggers reactions"
+            },
+            "Spell": {
+                "Name": "It's So Sparkly!",
+                "Effect": "You are Blinded until the end of your next turn"
+            }
+        }
+    ]
+}
