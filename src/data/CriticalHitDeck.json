@@ -1,0 +1,1019 @@
+{
+    "Cards": [
+        {
+            "Bludgeoning": {
+                "Name": "Crunch",
+                "CritEffect": "The target is Sickened 3"
+            },
+            "Piercing": {
+                "Name": "Forearm Piercing",
+                "CritEffect": "The target drops one weapon it's holding (chosen randomly by the GM)"
+            },
+            "Slashing": {
+                "Name": "Surprise Opening",
+                "CritEffect": "You gain one action that you can use before the end of your turn to use an attack action against the target"
+            },
+            "Bomb or Spell": {
+                "Name": "Allergic Reaction",
+                "Effect": "The target takes 1d8 poison damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Where Am I?",
+                "Damage": "Normal damage",
+                "CritEffect": "The target is Stunned 2"
+            },
+            "Piercing": {
+                "Name": "Surprise Opening",
+                "CritEffect": "You gain one action that you can use before the end of your turn to use an attack action against the target"
+            },
+            "Slashing": {
+                "Name": "Missing Ear",
+                "Damage": "Normal damage",
+                "Effect": "The target takes a -2 circumstance penalty to Perception checks and Charisma based checks except Intimidation until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Mind Cloud",
+                "Effect": "The target is Stupefied 2 until healed"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Surprise Opening",
+                "CritEffect": "You gain one action that you can use before the end of your turn to use an attack action against the target"
+            },
+            "Piercing": {
+                "Name": "Tongue Piercing",
+                "Effect": "The target must succeed a DC 5 flat check to cast spells with the verbal component until healed"
+            },
+            "Slashing": {
+                "Name": "Brow To Chin",
+                "CritEffect": "The target takes a -2 status penalty to Perception and ranged attack rolls until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Olfactory Overload",
+                "Effect": "The target loses its sense of smell and any scent ability or other olfactory senses until healed"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Cracked Rib",
+                "Effect": "The target is Fatigued"
+            },
+            "Piercing": {
+                "Name": "Momentum",
+                "Effect": "You gain a +2 circumstance bonus to all attack rolls until the end of your next turn"
+            },
+            "Slashing": {
+                "Name": "Gory",
+                "Effect": "The target is Sickened 1"
+            },
+            "Bomb or Spell": {
+                "Name": "Stunned",
+                "Damage": "Normal damage",
+                "Effect": "The target is Stunned 2"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Feeble Parry",
+                "CritEffect": "The target drops one weapon it's wielding, determined by the GM"
+            },
+            "Piercing": {
+                "Name": "Shoulder Wound",
+                "CritEffect": "Until healed, the target is Clumsy 1 and Enfeebled 2"
+            },
+            "Slashing": {
+                "Name": "Hamstring",
+                "Damage": "Normal damage",
+                "CritEffect": "The target is knocked prone. The target is also Clumsy 2 until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Cut Off From Magic",
+                "Damage":"Normal damage",
+                "Effect": "The target can't cast spells or activate magic items for 1d4 rounds"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Cracked Knee",
+                "CritEffect": "Until healed, the target is Clumsy 2 and takes a -5' status penalty to Land Speed"
+            },
+            "Piercing": {
+                "Name": "Calf Jab",
+                "CritEffect": "Until healed, the target is Clumsy 1 and takes a -10' status penalty to Land Speed"
+            },
+            "Slashing": {
+                "Name": "Ugly Wound",
+                "Effect": "The target takes a -2 circumstance penalty to checks with all Charisma based skills except Intimidation"
+            },
+            "Bomb or Spell": {
+                "Name": "Now You See Me...",
+                "Effect": "You become invisible until the end of your next turn or until you use a hostile action"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Bell Ringer",
+                "CritEffect": "The target is Sickened 2, and it is Stupefied 2 until it is no longer Sickened"
+            },
+            "Piercing": {
+                "Name": "Skewered",
+                "Damage":"Triple damage",
+                "CritEffect": "The target is Slowed 1 for one round"
+            },
+            "Slashing": {
+                "Name": "Momentum",
+                "Effect": "You gain a +2 circumstance bonus to all attack rolls until the end of your next turn"
+            },
+            "Bomb or Spell": {
+                "Name": "Petrified",
+                "Effect": "The target is Petrified for ten minutes"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Split Open",
+                "CritEffect": "The target takes 1d6 persistent bleed damage"
+            },
+            "Piercing": {
+                "Name": "Send 'Em Reeling",
+                "CritEffect": "The target is Flat-Footed until the end of its next turn"
+            },
+            "Slashing": {
+                "Name": "Shattered Jaw",
+                "CritEffect": "Until healed, the target is Wounded 1 and can't speak, eat, drink or make attacks with its jaws"
+            },
+            "Bomb or Spell": {
+                "Name": "Protective Charm",
+                "Effect": "You gain a +2 status bonus to AC and all saving throws until the end of your next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Momentum",
+                "Effect": "You gain a +2 circumstance bonus to all attack rolls until the end of your next turn"
+            },
+            "Piercing": {
+                "Name": "Blowback",
+                "Effect": "The target is knocked prone"
+            },
+            "Slashing": {
+                "Name": "Tangled",
+                "CritEffect": "You can attempt to Grapple the target as a free action. This uses the same multiple attack penalty as your attack and doesn't count toward you multiple attack penalty"
+            },
+            "Bomb or Spell": {
+                "Name": "Pretty Colors",
+                "Effect": "The target is Dazzled until the end of your next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "I See Stars",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Dazzled until healed"
+            },
+            "Piercing": {
+                "Name": "Pinhole",
+                "CritEffect": "The target takes 1 persistent bleed damage that can't be removed until the target is healed"
+            },
+            "Slashing": {
+                "Name": "Disembowel",
+                "Damage": "Triple damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Conduit",
+                "Effect": "The target takes a -2 status penalty to AC and saves against your bombs or spells until the end of your next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Broken Nose",
+                "Effect": "The target takes 1d4 persistent bleed damage"
+            },
+            "Piercing": {
+                "Name": "Two In A Row",
+                "CritEffect": "Deal normal damage to an additional target adjacent to the original target"
+            },
+            "Slashing": {
+                "Name": "Weapon Strike",
+                "CritEffect": "Deal normal damage to one of the target's weapons (applying Hardness normally"
+            },
+            "Bomb or Spell": {
+                "Name": "Nerve Damage",
+                "Damage":"Normal damage",
+                "Effect": "The target is Slowed 1 until healed"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Crushed Toe",
+                "Damage":"Normal damage",
+                "Effect": "The target is Clumsy 2 and takes a -10' status penalty to Land Speed. Both effects last until healed"
+            },
+            "Piercing": {
+                "Name": "Stinger",
+                "Damage":"Normal damage",
+                "Effect": "The target is Sickened 3"
+            },
+            "Slashing": {
+                "Name": "Missing Digits",
+                "Damage":"Normal damage",
+                "CritEffect": "The target loses 1d4 fingers on one hand and becomes Clumsy 1 until subject to a Regeneration spell or similar effect"
+            },
+            "Bomb or Spell": {
+                "Name": "Stange Goo",
+                "Damage":"Normal damage",
+                "Effect": "The target is Restrained, using your class DC as the DC to Escape"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Numbing Blow",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Clumsy 1 for one minute and must succeed at a Reflex save or drop one item it holds at random"
+            },
+            "Piercing": {
+                "Name": "Sucking Chest Wound",
+                "Effect": "The target is Fatigued"
+            },
+            "Slashing": {
+                "Name": "Overhand Chop",
+                "CritEffect": "The target takes 1d8 persistent bleed damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Knockback",
+                "Effect": "Push the target up to 10'"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Crumpling Blow",
+                "Effect": "The target is knocked prone"
+            },
+            "Piercing": {
+                "Name": "Pierced",
+                "Effect": "The target is Slowed 1 until the end of its next turn"
+            },
+            "Slashing": {
+                "Name": "Throat Slash",
+                "Damage": "Normal damage",
+                "CritEffect": "The target takes 1d8 persistent bleed damage. The target can't talk, cast spells with a verbal component, or breathe while subject to this bleed damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Life Leech",
+                "Effect": "If this is a spell, the target becomes Doomed 1 and you regain 1d8 Hit Points"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Shattered Hand",
+                "Damage": "Normal damage",
+                "Effect": "Until healed, the target is Clumsy 2 and Enfeebled 2, and it can't use one it its hands (chosen randomly by the GM)"
+            },
+            "Piercing": {
+                "Name": "Right In The Ear",
+                "Damage":"Normal damage",
+                "Effect": "The target is Deafened until healed"
+            },
+            "Slashing": {
+                "Name": "Stand Aside",
+                "Effect": "Push the target 5'"
+            },
+            "Bomb or Spell": {
+                "Name": "Vampiric Feedback",
+                "Damage":"Normal damage",
+                "Effect": "You regain Hit Points equal to half the damage you dealt"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Two For One",
+                "CritEffect": "Deal normal damage to one target adjacent to the original target"
+            },
+            "Piercing": {
+                "Name": "Pinned Arm",
+                "Effect": "As the bow critical specialization effect, and the target can't use one of its arms until freed. If using a melee weapon, you must drop it to gain this effect"
+            },
+            "Slashing": {
+                "Name": "Cut Straps",
+                "CritEffect": "The target's armor check penalty doubles until the armor is Repaired (DC 15)"
+            },
+            "Bomb or Spell": {
+                "Name": "Electrocuted",
+                "Effect": "If this is an electricity spell or bomb, the target takes double damage, and at the start of its next turn, it takes normal damage. Any other bomb or spell deals double damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "And Stay Down!",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is knocked prone and Stunned 2"
+            },
+            "Piercing": {
+                "Name": "Ventilated",
+                "Damage": "Triple damage"
+            },
+            "Slashing": {
+                "Name": "Knockback",
+                "Effect": "Push the target up to 10'"
+            },
+            "Bomb or Spell": {
+                "Name": "Frozen",
+                "Effect": "If this is a cold bomb or spell, the target takes triple damage and is Slowed 2 for one round. Any other bomb or spell deals double damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Rattled",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Confused for one round"
+            },
+            "Piercing": {
+                "Name": "Guarded Strike",
+                "CritEffect": "Gain a +2 circumstance bonus to AC until the end of your next turn"
+            },
+            "Slashing": {
+                "Name": "Severed Tendon",
+                "CritEffect": "Until healed, the target is Clumsy 1 and takes a -5' status penalty to its Land Speed"
+            },
+            "Bomb or Spell": {
+                "Name": "Power Surge",
+                "Damage": "Triple damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Nighty Night",
+                "Damage":"Normal damage",
+                "CritEffect": "The target falls unconscious and can't wake up until the end of its next turn"
+            },
+            "Piercing": {
+                "Name": "Painful Poke",
+                "Effect": "The target is Stunned 1"
+            },
+            "Slashing": {
+                "Name": "That'll Leave A Mark!",
+                "Damage":"Normal damage",
+                "CritEffect": "The target takes 2d6 persistent bleed damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Devastating Strike",
+                "Damage":"Triple damage",
+                "Effect": "The target is Stunned 1"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Brained",
+                "Effect": "The target is Stunned 1"
+            },
+            "Piercing": {
+                "Name": "Kidney Piercing",
+                "Effect": "The target is Sickened 2"
+            },
+            "Slashing": {
+                "Name": "Fingertipped",
+                "Damage":"Normal damage",
+                "Effect": "Until healed, the target is Clumsy 1 and can't use one of its hands (chosen randomly by the GM)"
+            },
+            "Bomb or Spell": {
+                "Name": "Eyeburn",
+                "Effect": "The target is Blinded until the end of its next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Collapsed Lung",
+                "Damage":"Normal damage",
+                "CritEffect": "Until healed, the target is Enfeebled 2 and Fatigued"
+            },
+            "Piercing": {
+                "Name": "Nerve Cluster",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Stunned 2"
+            },
+            "Slashing": {
+                "Name": "Rupture Abdominal Cavity",
+                "Damage":"Triple damage",
+                "Effect": "The target is Fatigued"
+            },
+            "Bomb or Spell": {
+                "Name": "Transposition",
+                "Effect": "If this is a spell attack, you and the target switch places. This is a teleportation effect"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Bone Masher",
+                "Damage":"Normal damage",
+                "CritEffect": "Either the target is Clumsy 2 and takes a -10' status penalty to its Land Speed, or is Clumsy 2 and can't use one of its arms (your choice). Either effect lasts until healed"
+            },
+            "Piercing": {
+                "Name": "Punctured Lung",
+                "CritEffect": "The target is Suffocating (Pathfinder Core Rulebook 478) until subject to magical healing"
+            },
+            "Slashing": {
+                "Name": "Pain And Simple",
+                "Damage": "Triple damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Hypnotic Link",
+                "Effect": "If this is a spell, the target takes normal damage and is controlled by you until the end of its next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Overwhelming Smash",
+                "Damage":"Triple damage"
+            },
+            "Piercing": {
+                "Name": "Nicked An Artery",
+                "Damage":"Normal damage",
+                "CritEffect": "The target takes 2d6 persistent bleed damage"
+            },
+            "Slashing": {
+                "Name": "Carve Your Initials",
+                "Damage":"Normal damage",
+                "Effect": "The target is so humiliated it can do nothing but attack you. At the end of each of its turns, it can attempt a Will save to end this effect"
+            },
+            "Bomb or Spell": {
+                "Name": "Distraction",
+                "Effect": "The target is Flat-Footed until the end of its next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Ruptured Spleen",
+                "Damage":"Normal damage",
+                "CritEffect": "The target takes 1 persistent bleed damage that can't be removed until the target has been subject to magical healing"
+            },
+            "Piercing": {
+                "Name": "Muscle Severed",
+                "Damage":"Normal damage",
+                "CritEffect": "Until healed, the target is Clumsy 3 and Enfeebled 3"
+            },
+            "Slashing": {
+                "Name": "Lean Into The Blow",
+                "Damage":"Triple damage",
+                "Effect": "You drop your weapon"
+            },
+            "Bomb or Spell": {
+                "Name": "Funny Bone",
+                "Effect": "The target laughs uncontrollably until the end of its next turn. While laughing, it is Slowed 1 and can't use reactions"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Off Balance",
+                "Damage":"Normal damage",
+                "Effect": "The target triggers reactions as if it just used a move action. It is also Flat-Footed until the end of its next turn"
+            },
+            "Piercing": {
+                "Name": "Chipped Bone",
+                "Effect": "The target is Clumsy 1 until healed"
+            },
+            "Slashing": {
+                "Name": "Hack And Slash",
+                "Damage":"Triple damage",
+                "Effect": "The target is Flat-Footed until the end of its next turn"
+            },
+            "Bomb or Spell": {
+                "Name": "Shrink Aftereffect",
+                "Damage":"Normal damage",
+                "Effect": "The target is reduced in size as if subject to a Shrink spell (Pathfinder Core Rulebook 369) until the end of its next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Crushed Intestines",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Wounded 2 and Enfeebled 2 until it is no longer Wounded"
+            },
+            "Piercing": {
+                "Name": "Lodged In The Bone",
+                "CritEffect": "The target takes 1d6 persistent bleed damage"
+            },
+            "Slashing": {
+                "Name": "Severed Spine",
+                "CritEffect": "The target must succeed at a Fortitude save or be Paralyzed until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Psychic Overflow",
+                "Effect": "The target takes 1d8 mental damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Crushed Trachea",
+                "CritEffect": "The target is suffocating (Pathfinder Core Rulebook 478) until subject to magical healing. It can't speak while it is suffocating"
+            },
+            "Piercing": {
+                "Name": "Pierced Elbow",
+                "Effect": "The target drops one item it is holding (determined randomly by the GM)"
+            },
+            "Slashing": {
+                "Name": "Long Gash",
+                "Damage":"Normal damage",
+                "CritEffect": "The target takes 1d4 persistent bleed damage. The DC of the flat check to remove this bleed damage is 5 higher than normal"
+            },
+            "Bomb or Spell": {
+                "Name": "Vulnerability",
+                "Effect": "The target gains Weakness 5 to any damage types dealt by the bomb or spell for one minute"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Skull Crush",
+                "CritEffect": "The target is Stupefied 3 until healed"
+            },
+            "Piercing": {
+                "Name": "Hand Wound",
+                "CritEffect": "Until healed, the target is Clumsy 2 and can't use one of its hands (determined randomly by the GM)"
+            },
+            "Slashing": {
+                "Name": "Broad Swipe",
+                "Effect": "The target takes 1d4 persistent bleed damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Lingering Damage",
+                "Effect": "The target takes 1d6 persistent damage or the same type as the bomb or spell's damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Caved Skull",
+                "Damage":"Triple damage",
+                "CritEffect": "The target must succeed at a Fortitude save or die"
+            },
+            "Piercing": {
+                "Name": "Overreaction",
+                "Damage":"Normal damage",
+                "Effect": "The target triggers reactions as if it just used a move action. It is also Flat-Footed until the end of its next turn"
+            },
+            "Slashing": {
+                "Name": "Paper Cut",
+                "Effect": "The target takes a -2 status penalty to attack tolls until the end of its next turn"
+            },
+            "Bomb or Spell": {
+                "Name": "Unnatural Selection",
+                "Effect": "Triple damage to Aberrations, Celestials, Fiends and Monitors. Double damage to all other creatures"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "To Your Thinky Bits",
+                "CritEffect": "The target is Stupefied 2 until healed"
+            },
+            "Piercing": {
+                "Name": "Clean Through",
+                "Damage": "Triple damage"
+            },
+            "Slashing": {
+                "Name": "Wide Open",
+                "Effect": "The target is Flat-Footed until the end of its next turn"
+            },
+            "Bomb or Spell": {
+                "Name": "Hoarder's Wrath",
+                "Effect": "Triple damage to Dragons. Double damage to all other creatures"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Dazing Thud",
+                "Effect": "The target is Stunned 1"
+            },
+            "Piercing": {
+                "Name": "Cheek Pierced",
+                "Effect": "The target must succeed a DC 5 flat check to cast spells with a verbal component until healed"
+            },
+            "Slashing": {
+                "Name": "Across The Eyes",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Blinded until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Slowed Down",
+                "Effect": "The target is Slowed 2 for one round"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Clocked!",
+                "Damage": "Triple damage",
+                "Effect": "The target is knocked prone"
+            },
+            "Piercing": {
+                "Name": "Head Shot",
+                "Damage": "Triple damage",
+                "CritEffect": "The target must succeed at a Fortitude save or die"
+            },
+            "Slashing": {
+                "Name": "From Chops To Groin",
+                "Damage": "Triple damage",
+                "CritEffect": "The target must succeed at a Fortitude save or die"
+            },
+            "Bomb or Spell": {
+                "Name": "Doomed!",
+                "Effect": "The targe is Slowed 1 for one round. and it also Doomed 1"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Broken Ribs",
+                "Damage": "Normal damage",
+                "CritEffect": "The target is Slowed 1 until healed"
+            },
+            "Piercing": {
+                "Name": "Spinal Tap",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Sickened 3"
+            },
+            "Slashing": {
+                "Name": "Nerve Slice",
+                "CritEffect": "The target is Slowed 2 for one round"
+            },
+            "Bomb or Spell": {
+                "Name": "Forceful Blast",
+                "Effect": "The bomb or spell deals an additional 1d8 force damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Staggering Blow",
+                "CritEffect": "The target is Stunned 2"
+            },
+            "Piercing": {
+                "Name": "Heart Shot",
+                "Damage":"Triple damage",
+                "CritEffect": "The target takes 1d4 persistent bleed damage"
+            },
+            "Slashing": {
+                "Name": "Leg Swipe",
+                "Effect": "The target is knocked prone"
+            },
+            "Bomb or Spell": {
+                "Name": "Terrifying Display",
+                "Effect": "The target is Frightened 3"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Thunder Strike",
+                "CritEffect": "The target is Deafened until healed"
+            },
+            "Piercing": {
+                "Name": "Nailed In Place",
+                "Effect": "As the bow critical specialization effect. If this is a melee weapon, you must drop the weapon to gain this effect. If this attack already has that effect, the Athletics check to pull free is DC 20 instead of DC 10"
+            },
+            "Slashing": {
+                "Name": "Decapitation",
+                "Damage":"Triple damage",
+                "CritEffect": "The target must succeed at a Fortitude save or die"
+            },
+            "Bomb or Spell": {
+                "Name": "Returning Spell",
+                "Effect": "If a spell attack, the spell or spell slot is not expended"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Box The Ears",
+                "Effect": "The target is Deafened until healed"
+            },
+            "Piercing": {
+                "Name": "Javelin Catcher",
+                "Effect": "Triple damage if the attack was a ranged or thrown attack. Double damage for all other attacks"
+            },
+            "Slashing": {
+                "Name": "Lip Cut",
+                "Effect": "The target must succeed a DC 5 flat check to cast spells with a verbal component until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Call Of The Wild",
+                "Effect": "Triple damage to Animals, Beasts and Fey. Double damage to all other creatures"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Concussion",
+                "Damage":"Normal damage",
+                "Effect": "The target is Confused for one minute and Stupefied 2 until healed"
+            },
+            "Piercing": {
+                "Name": "Infection",
+                "Effect": "The target must succeed at a Fortitude save or contract Filth Fever (Pathfinder Bestiary 258)"
+            },
+            "Slashing": {
+                "Name": "Flay",
+                "Damage":"Normal damage",
+                "Effect": "The target is Enfeebled 3 until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Corrosive",
+                "Effect": "If this is an acid bomb or spell, the target takes triple damage and 1d6 persistent acid damage. Any other bomb or spell deals double damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Armor Dent",
+                "Damage":"Normal damage",
+                "CritEffect": "Deal the same amount of damage to the target's armor, ignoring that armor's Hardness"
+            },
+            "Piercing": {
+                "Name": "Eye Patch For You",
+                "Damage":"Triple damage",
+                "CritEffect": "The target is Dazzled until healed"
+            },
+            "Slashing": {
+                "Name": "Flat-Blade Thwack",
+                "Damage":"Triple damage",
+                "Effect": "You can deal bludgeoning damage instead of slashing damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Magical Glow",
+                "Effect": "The target glows for one minute with the effect of a Faerie Fire spell"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Soul-Crushing Blow",
+                "CritEffect": "The target is Doomed 1 and is Stupefied 1 for as long as it is Doomed"
+            },
+            "Piercing": {
+                "Name": "Knockback",
+                "Effect": "The target is pushed 10'"
+            },
+            "Slashing": {
+                "Name": "Armor Damage",
+                "Effect": "The target's armor also takes the damage (applying the armor's Hardness normally)"
+            },
+            "Bomb or Spell": {
+                "Name": "Draining Strike",
+                "Effect": "The target loses one random prepared spell or spell slot, as determined by the GM"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Breathless",
+                "Effect": "The target is Fatigued"
+            },
+            "Piercing": {
+                "Name": "Spun Around",
+                "Effect": "The target is Flat-Footed until the end of its next turn"
+            },
+            "Slashing": {
+                "Name": "Sliced Hand",
+                "Damage":"Normal damage",
+                "Effect": "Until healed, the target is Enfeebled 1, Clumsy 1, and can't use one of its hands (determined randomly by the GM)"
+            },
+            "Bomb or Spell": {
+                "Name": "Combustion",
+                "Effect": "If this is a fire bomb or spell, the target takes triple damage and 1d6 persistent fire damage. Any other bomb or spell deals double damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Broken Leg",
+                "CritEffect": "The target takes a -15' status penalty to its Land Speed until healed"
+            },
+            "Piercing": {
+                "Name": "Grazing Hit",
+                "Damage":"Normal damage",
+                "CritEffect": "The target is Stunned 3"
+            },
+            "Slashing": {
+                "Name": "Swing Through",
+                "CritEffect": "Make an additional attack against a foe adjacent to the original target, using the same attack modifier as the original attack"
+            },
+            "Bomb or Spell": {
+                "Name": "Maximum Effect",
+                "Effect": "Don't roll for damage. You deal the maximum possible critical hit damage with this attack"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Shield Smack",
+                "CritEffect": "The target must succeed at a Reflex save or drop a shield it's holding"
+            },
+            "Piercing": {
+                "Name": "Penetrating Wound",
+                "Effect": "The attack ignores all resistances"
+            },
+            "Slashing": {
+                "Name": "Muscle Wound",
+                "CritEffect": "The target is Enfeebled 2 until healed."
+            },
+            "Bomb or Spell": {
+                "Name": "Intense Strike",
+                "Effect": "The attack ignores all resistances"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "My Teef!",
+                "Effect": "The target must succeed a DC 5 flat check to cast spells with the verbal component until healed"
+            },
+            "Piercing": {
+                "Name": "Gusher",
+                "Effect": "The target takes 1d6 persistent bleed damage"
+            },
+            "Slashing": {
+                "Name": "Terrible Cut",
+                "Damage": "Triple damage"
+            },
+            "Bomb or Spell": {
+                "Name": "Excruciating",
+                "Effect": "The target is Sickened 3"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Knockback",
+                "CritEffect": "The target is pushed 1d4x5 feet away"
+            },
+            "Piercing": {
+                "Name": "Deep Hurting",
+                "CritEffect": "The target is Fatigued"
+            },
+            "Slashing": {
+                "Name": "Gut Slash",
+                "Effect": "The target takes 1d4 persistent bleed damage and any creature it Swallows Whole is immediately released"
+            },
+            "Bomb or Spell": {
+                "Name": "Intense Splash",
+                "Effect": "The target takes normal damage, and all creatures adjacent to the target take half damage of the same type"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Low Blow",
+                "CritEffect": "The target is Sickened 2 and Slowed 1 as long as it remains Sickened"
+            },
+            "Piercing": {
+                "Name": "Hobbled",
+                "CritEffect": "Until healed, the target is Clumsy 2 and takes a -10' status penalty to all Speeds"
+            },
+            "Slashing": {
+                "Name": "Bad Parry",
+                "CritEffect": "The target must succeed at a Relex save or drop one weapon it is holding (determined randomly by the GM)"
+            },
+            "Bomb or Spell": {
+                "Name": "Planar Rift",
+                "Effect": "If this is a spell, the target takes normal damage and must succeed at a Will save or be sent to a random plane (determined by the GM)"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Busted Shin",
+                "CritEffect": "Until healed, the target is Clumsy 1 and takes a 10' status penalty to its Land Speed"
+            },
+            "Piercing": {
+                "Name": "Perfect Strike",
+                "Damage": "Triple damage"
+            },
+            "Slashing": {
+                "Name": "Sapping Slash",
+                "CritEffect": "The target is Fatigued"
+            },
+            "Bomb or Spell": {
+                "Name": "Light Blast",
+                "Effect": "The target is Blinded until the end of its next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Back Breaker",
+                "CritEffect": "Until healed, the target is Clumsy 2 and Enfeebled 2"
+            },
+            "Piercing": {
+                "Name": "Deep Wound",
+                "CritEffect": "The target is Sickened 3"
+            },
+            "Slashing": {
+                "Name": "Brow Cut",
+                "Damage":"Normal damage",
+                "CritEffect": "The target takes 1d4 persistent bleed damage. Until the bleed ends, all creatures are concealed to the target"
+            },
+            "Bomb or Spell": {
+                "Name": "Mystical Thwart",
+                "Effect": "The target can't activate magic items, cast spells, or use Quick Alchemy until the end of its next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Busted Shin",
+                "CritEffect": "Until healed, the target is Clumsy 1 and takes a -10' status penalty to its Land Speed"
+            },
+            "Piercing": {
+                "Name": "Perfect Strike",
+                "Damage": "Triple damage"
+            },
+            "Slashing": {
+                "Name": "Sapping Slash",
+                "CritEffect": "The target is Fatigued"
+            },
+            "Bomb or Spell": {
+                "Name": "Light Blast",
+                "Effect": "The target is Blinded until the end of its next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Solid Blow",
+                "Damage": "Triple damage"
+            },
+            "Piercing": {
+                "Name": "Tenacious Wound",
+                "Damage":"Normal damage",
+                "CritEffect": "The target can't heal this damage until it has rested at least eight hours"
+            },
+            "Slashing": {
+                "Name": "Parrying Strike",
+                "CritEffect": "Gain a +2 circumstance bonus to AC until the end of your next turn"
+            },
+            "Bomb or Spell": {
+                "Name": "Phased",
+                "Effect": "The target becomes incorporeal (Pathfinder Bestiary 346) until the end of your next turn"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Tiring Blow",
+                "Effect": "The target is Fatigued"
+            },
+            "Piercing": {
+                "Name": "Leg Wound",
+                "CritEffect": "The target takes a -5' status penalty to its Land Speed until healed"
+            },
+            "Slashing": {
+                "Name": "Spun Around",
+                "Effect": "The target is Flat-Footed until the end of its next turn"
+            },
+            "Bomb or Spell": {
+                "Name": "Time Vortex",
+                "Effect": "If this is a spell, normal damage and the target vanishes and reappears 1d4 rounds later. The target can use no actions, and any effects it has with durations do not pass while it's gone"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Foot Smash",
+                "Effect": "The target is Flat-Footed until the end of its next turn"
+            },
+            "Piercing": {
+                "Name": "Organ Scramble",
+                "Damage":"Triple damage",
+                "CritEffect": "The target is Fatigued"
+            },
+            "Slashing": {
+                "Name": "Wing Tear",
+                "Effect": "The target loses any Fly Speed until healed"
+            },
+            "Bomb or Spell": {
+                "Name": "Energy Might",
+                "Effect": "If the bomb or spell deals acid, cold, electricity, fire, or sonic damage, it deals triple damage. Any other bomb or spell deals double damage"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Lights Out",
+                "CritEffect": "The target is Blinded until the end of its next turn"
+            },
+            "Piercing": {
+                "Name": "Bicep Wound",
+                "Effect": "The target is Enfeebled 1 until healed"
+            },
+            "Slashing": {
+                "Name": "Bewildering Display",
+                "CritEffect": "The target is Flat-Footed until the end of its next turn"
+            },
+            "Bomb or Spell": {
+                "Name": "Roaring Blast",
+                "Effect": "The target is Deafened until healed"
+            }
+        },
+        {
+            "Bludgeoning": {
+                "Name": "Roundhouse",
+                "CritEffect": "Make one additional attack against a foe adjacent to the original target, using the same attack modifier as the original target"
+            },
+            "Piercing": {
+                "Name": "Ragged Wound",
+                "Effect": "The target takes 1d6 persistent bleed damage"
+            },
+            "Slashing": {
+                "Name": "Delayed Wound",
+                "Damage":"Normal damage",
+                "CritEffect": "The target takes the same amount of damage at the end of its next two turns"
+            },
+            "Bomb or Spell": {
+                "Name": "Concussive Blast",
+                "Effect": "The target is pushed up to 10' and knocked prone"
+            }
+        }
+        
+    ]
+}
+
+

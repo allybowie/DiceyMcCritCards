@@ -7,11 +7,15 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import CriticalHitDeck from "./data/CriticalHitDeck.json"
 
 export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  mounted() {
+    console.log("CRITICAL HIT DATA", CriticalHitDeck)
   }
 }
 </script>
