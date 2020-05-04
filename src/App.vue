@@ -94,7 +94,8 @@ export default {
   },
   methods: {
     onResize() {
-      this.setData()
+      this.windowWidth = window.screen.availWidth
+      this.cardWidth = this.$refs.cardRef.offsetWidth
     },
     setData() {
       this.windowWidth = window.screen.availWidth
