@@ -247,8 +247,10 @@ padding: 0;
 .cardContainer {
   height: 600px;
   margin-top: 2%;
-  width: 50%;
-  margin-left: 2%
+  width: fit-content;
+  margin-left: 2%;
+  background: rgb(172, 170, 199);
+  border-radius: 10px;
 }
 
 .leftButtonContainer {
