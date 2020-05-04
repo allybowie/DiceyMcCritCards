@@ -6,7 +6,7 @@
         </div>
         <p v-if="info.Damage" class="damage">{{info.Damage}}</p>
         <p v-if="info.Effect" class="effect">{{info.Effect}}</p>
-        <p v-else-if="info.CritEffect" class="effect">{{info.CritEffect}}</p>
+        <p v-else-if="info.CritEffect" class="effect"><span class="critEffect">Crit-Effect: </span>{{info.CritEffect}}</p>
         </div>
 </template>
 
@@ -42,11 +42,8 @@ padding: 0;
 
     .container {
         background: url(http://api.thumbr.it/whitenoise-320x200.png?background=f7e497ff&noise=ffffff&density=88&opacity=71);
-        /* width: 100%; */
         font-family: 'Oswald', sans-serif;
-        /* margin-left: 10%; */
         width: 300px;
-        /* min-width: 350px; */
         border-radius: 10px;
         margin-top: 10px;
         text-align: left
@@ -54,9 +51,7 @@ padding: 0;
 
     .nameContainer {
         margin-left: 2%;
-        width: 88%;
-        /* margin-right */
-        margin-bottom: 0px;
+        width: 95%;
         display: flex;
         justify-content: space-between;
     }
@@ -71,7 +66,7 @@ padding: 0;
     }
 
     .category {
-        margin-top: 2%;
+        margin-top: 3%;
         font-size: 16px;
         font-weight: 200;
     }
@@ -88,20 +83,15 @@ padding: 0;
         margin-top: 0px;
         font-size: 18px;
         margin-left: 2%;
+        width: 95%;
         font-weight: 400;
         padding-bottom: 10px;
         padding-right: 30px
     }
 
-    @media (max-width: 800px) {
-    /* .container {
-        margin-left: 0px;
-        width: 300px;
-        min-width: 295px
+    .critEffect {
+        font-weight: 600
     }
 
-    .nameContainer {
-        width: 100%
-    } */
-}
+    
 </style>
