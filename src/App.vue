@@ -174,6 +174,7 @@ export default {
                     const number = Math.floor(Math.random() * this.critFumbleCards.length)
 
               this.currentCritFumbleCard = this.critFumbleCards.splice(number, 1)[0]
+              
             }
     },
     shuffleFumbleCards() {
@@ -295,7 +296,7 @@ padding: 0;
 }
 
 .cardContainer {
-  height: 620px;
+  height: 610px;
   margin-top: 2%;
   width: 320px;
   /* margin-left: 2%; */
