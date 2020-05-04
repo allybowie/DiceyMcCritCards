@@ -1,11 +1,14 @@
 <template>
   <div id="app" >
+
     <div class="headerContainer">
       <p class="header">Dicey McCrit Cards</p>
     </div>
+
     <div class="content">
-    <div v-bind:style="[(windowWidth < 800) ? critContainerMobile : critHitContainer]">
-      <div class="titleContainer"><p class="hitTitle">Critical Hit</p></div>
+      <div class="titleContainer"><p class="hitTitle" v-on:click="showHitDeck = true">Critical Hit</p><p class="titleSeperation">|</p><p class="hitTitle" v-on:click="showHitDeck = false">Critical Fumble</p></div>
+    <div v-if="showHitDeck" v-bind:style="[(windowWidth < 800) ? critContainerMobile : critHitContainer]">
+      <div class="deckContainer">
       <div class="leftButtonContainer">
       <p v-on:click="drawCriticalHitCard" class="button">Draw Card</p>
       <p class="cardCount">Cards Left: {{currentHitDeck().length}}</p>
@@ -14,23 +17,26 @@
       <div class="cardContainer" ref="cardRef">
       <Critical-Hit-Card :card="topCritHitCard" />
       </div>
+      </div>
     </div>
     
     
-      <div v-bind:style="[(windowWidth < 800) ? critFumbleContainerMobile : critFumbleContainer]">
-              <div class="titleContainer"><p class="FumbleTitle">Critical Fumble</p></div>
-
+      <div v-if="!showHitDeck" v-bind:style="[(windowWidth < 800) ? critHitContainerMobile : critHitContainer]">
+        <div class="deckContainer">
         <div class="rightButtonContainer">
           <p v-on:click="drawCriticalFumbleCard" class="button">Draw Card</p>
       <p class="cardCount">Cards Left: {{currentFumbleDeck().length}}</p>
       <p v-on:click="setCritFumbleDeck" class="button">Shuffle Deck</p>
         </div>
-        <div class="cardContainer">
+        <div class="cardContainer" ref="cardRef">
           <Critical-Fumble-Card :card="topCritFumbleCard"/>
         </div>
       </div>
+      </div>
     </div>
+
   </div>
+
 </template>
 
 <script>
@@ -52,10 +58,17 @@ export default {
     critFumbleCards: [],
     currentCritHitCard: {},
     currentCritFumbleCard: {},
-    windowWidth: 0
+    windowWidth: 0,
+    showHitDeck: true
     }
   },
   computed: {
+    critHitContainer () {
+  return {"width": "100%",
+  "display": "flex",
+  "justify-content": "center"
+    }
+},
     topCritHitCard() {
       return this.currentCritHitCard
     },
@@ -209,6 +222,7 @@ padding: 0;
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
   padding: 0;
@@ -222,6 +236,11 @@ padding: 0;
   justify-content: center;
 }
 
+.deckContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   width: fit-content;
   border-bottom: 3px solid darkslategrey;
@@ -230,8 +249,11 @@ padding: 0;
 .hitTitle {
   font-size: 36px;
   font-family: 'Oswald', sans-serif;
-  width: fit-content;
+  width: 15%;
   border-bottom: 3px solid darkslategrey;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
 }
 
 .FumbleTitle {
@@ -247,10 +269,20 @@ padding: 0;
   justify-content: center;
 }
 
+.titleSeperation {
+  font-size: 36px;
+  font-family: 'Oswald', sans-serif;
+  width: fit-content;
+  border-bottom: 3px solid darkslategrey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .critHitContainer {
-  width: 50%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  /* flex-direction: column; */
 }
 
 .critFumbleContainer {
@@ -339,12 +371,27 @@ padding: 0;
     font-size: 48px;
   }
 
-  .FumbleTitle {
-      margin-top: 10px;
-      border-top: 3px solid darkslategrey;
+  
+
+    .hitTitle {
+      font-size: 26px;
+      width: 50%;
+    }
+
+    .titleSeperation {
+      font-size: 26px;
     }
 
   @media (max-width: 320px) {
+    .hitTitle {
+      font-size: 20px;
+      width: 50%;
+    }
+
+    .titleSeperation {
+      font-size: 20px;
+    }
+
     .headerContainer {
       font-size: 36px
     }
