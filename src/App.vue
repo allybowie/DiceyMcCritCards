@@ -293,7 +293,7 @@ padding: 0;
 }
 
 .cardContainer {
-  height: 615px;
+  height: 625px;
   margin-top: 2%;
   width: 320px;
   background: url(http://api.thumbr.it/whitenoise-320x600.png?background=1d5c75ff&noise=d6d6d6&density=13&opacity=71);
