@@ -247,10 +247,12 @@ padding: 0;
 .cardContainer {
   height: 600px;
   margin-top: 2%;
-  width: fit-content;
+  width: 320px;
   margin-left: 2%;
   background: rgb(172, 170, 199);
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .leftButtonContainer {
