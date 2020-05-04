@@ -296,7 +296,7 @@ padding: 0;
 }
 
 .cardContainer {
-  height: 610px;
+  height: 615px;
   margin-top: 2%;
   width: 320px;
   /* margin-left: 2%; */
