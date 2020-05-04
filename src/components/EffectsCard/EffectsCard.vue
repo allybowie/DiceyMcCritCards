@@ -41,7 +41,7 @@ padding: 0;
 
 
     .container {
-        background: rgb(236, 219, 197);
+        background: url(http://api.thumbr.it/whitenoise-320x200.png?background=f7e497ff&noise=ffffff&density=88&opacity=71);
         /* width: 100%; */
         font-family: 'Oswald', sans-serif;
         /* margin-left: 10%; */

@@ -78,7 +78,8 @@ export default {
   "margin-left": margin2.toString() + "px",
   "display": "flex",
   "flex-direction": "column",
-  "padding-bottom": "30px"
+  "padding-bottom": "30px",
+  "scroll-snap-align": "start"
 }
     },
     critContainerMobile() {
@@ -89,14 +90,16 @@ export default {
   "width": "fit-content",
   "margin-left": margin2.toString() + "px",
   "display": "flex",
-  "flex-direction": "column"
+  "flex-direction": "column",
+    "scroll-snap-align": "start"
+
 }
     },
     cardContainerMobile() {
       return {
   "height": "600px",
   "margin-top": "2%",
-  "margin-left": "5%"
+  "margin-left": "5%",
 }
     }
   },
@@ -207,12 +210,11 @@ padding: 0;
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  padding: 0
+  padding: 0;
 }
 
 .headerContainer {
   width: 100%;
-  /* text-align: center; */
   font-family: 'Oswald', sans-serif;
   font-size: 56px;
   display: flex;
@@ -315,7 +317,6 @@ padding: 0;
 
 .rightButtonContainer {
   width: 320px;
-  /* margin-left: 4%; */
   margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
@@ -324,56 +325,17 @@ padding: 0;
 }
 
 
-/* @media (max-width: 1124px) {
-  #app {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
 
-  .critHitContainer {
-    width: 100%;
-    margin-left: 12%
-  }
-
- 
-
-  .critFumbleContainer {
-    width: 100%;
-    margin-left: 12%
-
-  }
-  
-  .leftButtonContainer {
-    font-size: 11px;
-  }
-  .rightButtonContainer {
-    font-size: 11px;
-  }
-
-  .shuffle {
-    margin-left: 10px;
-    padding-top: 10px
-  }
-
-  .draw {
-    margin-left: 10px
-  }
-
-  .cardCount {
-    margin-left: 10px
-  }
-
-  .critFumbleContainer {
-    margin-left: 15%
-  }
-} */
 
 @media (max-width: 800px) {
   .content {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    height: fit-content;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
   }
 
   .headerContainer {
