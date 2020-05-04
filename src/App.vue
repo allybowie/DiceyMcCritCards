@@ -319,25 +319,17 @@ padding: 0;
   flex-direction: column;
 }
 
-.draw {
-  width: 100px;
-  height: 25px;
-  cursor: pointer;
-  background: darkkhaki;
-  border-radius: 5px;
-  padding-top: 5px;
-  font-size: 14px
-}
-
 .button {
   width: 100px;
-  height: 25px;
+  height: 30px;
   cursor: pointer;
   color: white;
   background: url(http://api.thumbr.it/whitenoise-100x25.png?background=828a54ff&noise=d6d6d6&density=13&opacity=71);
   border-radius: 5px;
-    padding-top: 5px;
-  font-size: 14px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .alert {
@@ -345,11 +337,11 @@ padding: 0;
 }
 
 .cardCount {
-  padding-top: 6px;
+  padding-top: 10px;
   width: 90px;
   height: 25px;
-  font-size: 12px
-
+  font-size: 12px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .cardContainer {
@@ -418,42 +410,41 @@ padding: 0;
   
 
     .hitTitle {
-      font-size: 20px;
+      font-size: 26px;
       width: 100%;
     }
 
     .FumbleTitle {
-      font-size: 20px;
+      font-size: 26px;
       width: 100%;
     }
 
     .fumbleDeckButtonContainer {
       width: 100%;
-      height: 30px;
+      height: 40px;
       padding: 5px
     }
 
     .hitDeckButtonContainer {
       width: 100%;
-      height: 30px;
+      height: 40px;
       padding: 5px
     }
 
 
 
   @media (max-width: 320px) {
+
     .hitTitle {
-      font-size: 14px;
-      width: 60%;
-      padding-top: 4px;
-      padding-bottom: 5px
+      font-size: 20px;
+      width: 100%;
+      padding-top: 3px
     }
 
     .FumbleTitle {
-      font-size: 14px;
-      width: 60%;
-      padding-top: 4px;
-      padding-bottom: 5px
+      font-size: 20px;
+      width: 100%;
+      padding-top: 3px
     }
 
     .headerContainer {
