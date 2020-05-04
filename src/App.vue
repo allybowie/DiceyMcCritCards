@@ -6,7 +6,7 @@
     </div>
 
     <div class="content">
-      <div class="titleContainer"><p class="hitTitle" v-on:click="showHitDeck = true">Critical Hit</p><p class="titleSeperation">|</p><p class="hitTitle" v-on:click="showHitDeck = false">Critical Fumble</p></div>
+      <div class="titleContainer"><div class="hitDeckButtonContainer"><p class="hitTitle" v-bind:style="[showHitDeck ? activeDeck : null]" v-on:click="showHitDeck = true">Critical Hit</p></div><div class="fumbleDeckButtonContainer"><p class="FumbleTitle" v-bind:style="[!showHitDeck ? activeDeck : null]" v-on:click="showHitDeck = false" >Critical Fumble</p></div></div>
     <div v-if="showHitDeck" v-bind:style="[(windowWidth < 800) ? critContainerMobile : critHitContainer]">
       <div class="deckContainer">
       <div class="leftButtonContainer">
@@ -75,6 +75,11 @@ export default {
     topCritFumbleCard() {
       return this.currentCritFumbleCard
     },
+    activeDeck() {
+      return {
+        "color": "darkgrey"
+      }
+    },
     appStyle() {
       const width = window.innerWidt/30
       return {
@@ -118,8 +123,7 @@ export default {
   },
   mounted() {
     this.setData()
-    this.drawCriticalHitCard()
-    this.drawCriticalFumbleCard()
+
 
     window.addEventListener("resize", this.onResize)
 
@@ -140,12 +144,19 @@ export default {
       const newHitCards = CriticalHitDeck.Cards
       
       this.critHitCards = [...newHitCards]
-      this.hitDeckShuffled = true
+
+      this.currentCritHitCard = {
+        Shuffled: true
+      }
     },
     setCritFumbleDeck() {
       const newFumbleCards = CriticalFumbleDeck.Cards
 
       this.critFumbleCards = [...newFumbleCards]
+
+      this.currentCritFumbleCard = {
+        Shuffled: true
+      }
     },
     currentHitDeck() {
       return this.critHitCards
@@ -161,8 +172,9 @@ export default {
             if(this.currentHitDeck().length === 0) {
               this.setCritHitDeck()
 
-              const number = Math.floor(Math.random() * this.critHitCards.length);
-              this.currentCritHitCard = this.critHitCards.splice(number, 1)[0]
+              this.currentCritHitCard = {
+                Shuffled: true
+                }
 
             } else {
                     const number = Math.floor(Math.random() * this.critHitCards.length)
@@ -179,8 +191,9 @@ export default {
             if(this.currentFumbleDeck().length === 0) {
               this.setCritFumbleDeck()
 
-              const number = Math.floor(Math.random() * this.critFumbleCards.length);
-              this.currentCritFumbleCard = this.critFumbleCards.splice(number, 1)[0]
+              this.currentCritFumbleCard = {
+                Shuffled: true
+                }
 
             } else {
                     const number = Math.floor(Math.random() * this.critFumbleCards.length)
@@ -247,20 +260,36 @@ padding: 0;
 }
 
 .hitTitle {
-  font-size: 36px;
+  font-size: 2vw;
   font-family: 'Oswald', sans-serif;
-  width: 15%;
-  border-bottom: 3px solid darkslategrey;
+  width: fit-content;
   padding-left: 10px;
   padding-right: 10px;
   cursor: pointer;
 }
 
 .FumbleTitle {
-  font-size: 36px;
+  font-size: 2vw;
   font-family: 'Oswald', sans-serif;
   width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.hitDeckButtonContainer {
+  width: 15%;
   border-bottom: 3px solid darkslategrey;
+  border-right: 3px solid darkslategrey;
+  display: flex;
+  justify-content: center;
+}
+
+.fumbleDeckButtonContainer {
+    width: 15%;
+    border-bottom: 3px solid darkslategrey;
+    display: flex;
+    justify-content: center;
 }
 
 .titleContainer {
@@ -282,7 +311,6 @@ padding: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
 }
 
 .critFumbleContainer {
@@ -354,17 +382,33 @@ padding: 0;
 }
 
 
+ @media (max-width: 478) {
+    .fumbleDeckButtonContainer {
+      width: 50%;
+    }
 
+    .hitDeckButtonContainer {
+      width: 50%
+    }
+
+     .hitTitle {
+      font-size: 12px;
+      width: 100%;
+      color: blue
+    }
+
+    .FumbleTitle {
+      font-size: 12px;
+      width: 100%;
+    }
+  }
 
 @media (max-width: 800px) {
   .content {
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: fit-content;
-    overflow: scroll;
-    scroll-snap-type: y mandatory;
   }
 
   .headerContainer {
@@ -374,22 +418,42 @@ padding: 0;
   
 
     .hitTitle {
-      font-size: 26px;
-      width: 50%;
+      font-size: 20px;
+      width: 100%;
     }
 
-    .titleSeperation {
-      font-size: 26px;
+    .FumbleTitle {
+      font-size: 20px;
+      width: 100%;
     }
+
+    .fumbleDeckButtonContainer {
+      width: 100%;
+      height: 30px;
+      padding: 5px
+    }
+
+    .hitDeckButtonContainer {
+      width: 100%;
+      height: 30px;
+      padding: 5px
+    }
+
+
 
   @media (max-width: 320px) {
     .hitTitle {
-      font-size: 20px;
-      width: 50%;
+      font-size: 14px;
+      width: 60%;
+      padding-top: 4px;
+      padding-bottom: 5px
     }
 
-    .titleSeperation {
-      font-size: 20px;
+    .FumbleTitle {
+      font-size: 14px;
+      width: 60%;
+      padding-top: 4px;
+      padding-bottom: 5px
     }
 
     .headerContainer {

@@ -1,5 +1,13 @@
 <template>
-    <div class="container">
+    <div v-if="card.Shuffled" class="topDeck">
+        <p>THE CRITICAL HIT DECK HAS BEEN SHUFFLED</p>
+        <p>CLICK 'DRAW CARD' TO BEGIN</p>
+        <p>CLICK 'SHUFFLE DECK' TO RESET</p>
+        <p>THE DECK WILL AUTOMATICALLY RESET WHEN IT IS EMPTY</p>
+        <p>YOU CAN SWITCH BETWEEN DECKS USING THE BUTTONS ABOVE</p>
+
+    </div>
+    <div v-else class="container">
         <EffectsCard :info="card.Bludgeoning" :category="'Bludgeoning'"/>
         <EffectsCard :info="card.Piercing" :category="'Piercing'"/>
         <EffectsCard :info="card.Slashing" :category="'Slashing'"/>
@@ -28,24 +36,20 @@ export default {
 
 
 <style scoped>
-/* @media (max-width: 1124px) {
 
-    * {
-margin: 0;
-padding: 0;
-}
-
-    .container {
-        margin-left: 0px;
-        max-width: 300px;
-
-    }
-} */
 * {
 margin: 0;
 padding: 0;
 }
 
+.topDeck {
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    padding: 10px
+}
 
 
 
@@ -53,12 +57,6 @@ padding: 0;
     min-height: 80px;
     height: fit-content;
     width: 300px;
-      /* border: 3px solid black; */
-
-
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
 }
 
 </style>
