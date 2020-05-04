@@ -152,9 +152,10 @@ export default {
               this.currentCritHitCard = this.critHitCards.splice(number, 1)[0]
 
             } else {
-                    const number = Math.floor(Math.random() * this.critHitCards.length)
+                    // const number = Math.floor(Math.random() * this.critHitCards.length)
 
-              this.currentCritHitCard = this.critHitCards.splice(number, 1)[0]
+              // this.currentCritHitCard = this.critHitCards.splice(number, 1)[0]
+              this.currentCritHitCard = this.critHitCards[11]
             }
 
 
@@ -294,7 +295,7 @@ padding: 0;
 }
 
 .cardContainer {
-  height: 600px;
+  height: 620px;
   margin-top: 2%;
   width: 320px;
   /* margin-left: 2%; */

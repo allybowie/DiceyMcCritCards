@@ -10,7 +10,7 @@ storiesOf("Crit Hit Card", module)
   .add("Default", () => ({
       data() {
         return {
-            critCard: CriticalHitDeck.Cards[1]
+            critCard: CriticalHitDeck.Cards[11]
         }
       },
     components: {
