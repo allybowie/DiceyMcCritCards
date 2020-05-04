@@ -16,9 +16,6 @@ export default {
     Data() {
         return {}
     },
-    mounted() {
-        console.log("NAME", this.category)
-    },
     props: {
         info: {
             type: Object,
@@ -35,17 +32,21 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+
+
     * {
 margin: 0;
 padding: 0;
 }
 
+
     .container {
         background: rgb(236, 219, 197);
         /* width: 100%; */
         font-family: 'Oswald', sans-serif;
-        margin-left: 10%;
-        width: 350px;
+        /* margin-left: 10%; */
+        width: 300px;
+        /* min-width: 350px; */
         border-radius: 10px;
         margin-top: 10px;
         text-align: left
@@ -91,4 +92,16 @@ padding: 0;
         padding-bottom: 10px;
         padding-right: 30px
     }
+
+    @media (max-width: 800px) {
+    /* .container {
+        margin-left: 0px;
+        width: 300px;
+        min-width: 295px
+    }
+
+    .nameContainer {
+        width: 100%
+    } */
+}
 </style>

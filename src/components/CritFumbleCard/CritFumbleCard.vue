@@ -17,9 +17,6 @@ export default {
     components: {
         EffectsCard
     },
-    mounted() {
-        console.log("NAME", this.info)
-    },
     props: {
         card: {
             type: Object,
@@ -30,19 +27,18 @@ export default {
 </script>
 
 <style scoped>
+
 * {
 margin: 0;
 padding: 0;
 }
 
 .container {
-    min-height: 93px;
+    min-height: 80px;
     height: fit-content;
-    width: 80%
+    width: 300px
 
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
+  
 }
 
 </style>
