@@ -7,9 +7,9 @@
     <div v-bind:style="[(windowWidth < 800) ? critContainerMobile : critHitContainer]">
       <div class="titleContainer"><p class="hitTitle">Critical Hit</p></div>
       <div class="leftButtonContainer">
-      <p v-on:click="drawCriticalHitCard" class="draw">Draw Card</p>
+      <p v-on:click="drawCriticalHitCard" class="button">Draw Card</p>
       <p class="cardCount">Cards Left: {{currentHitDeck().length}}</p>
-      <p v-on:click="setCritHitDeck" class="shuffle">Shuffle Deck</p>
+      <p v-on:click="setCritHitDeck" class="button">Shuffle Deck</p>
       </div>
       <div class="cardContainer" ref="cardRef">
       <Critical-Hit-Card :card="topCritHitCard" />
@@ -17,13 +17,13 @@
     </div>
     
     
-      <div v-bind:style="[(windowWidth < 800) ? critContainerMobile : critFumbleContainer]">
+      <div v-bind:style="[(windowWidth < 800) ? critFumbleContainerMobile : critFumbleContainer]">
               <div class="titleContainer"><p class="FumbleTitle">Critical Fumble</p></div>
 
         <div class="rightButtonContainer">
-          <p v-on:click="drawCriticalFumbleCard" class="draw">Draw Card</p>
+          <p v-on:click="drawCriticalFumbleCard" class="button">Draw Card</p>
       <p class="cardCount">Cards Left: {{currentFumbleDeck().length}}</p>
-      <p v-on:click="setCritFumbleDeck" class="shuffle">Shuffle Deck</p>
+      <p v-on:click="setCritFumbleDeck" class="button">Shuffle Deck</p>
         </div>
         <div class="cardContainer">
           <Critical-Fumble-Card :card="topCritFumbleCard"/>
@@ -68,9 +68,21 @@ export default {
         "margin-left": width.toString() + "px"
       }
     },
+    critFumbleContainerMobile() {
+      const margin2 = ((this.windowWidth - this.cardWidth)/100)
+
+
+      return {
+        "margin-top": "70px",
+  "width": "fit-content",
+  "margin-left": margin2.toString() + "px",
+  "display": "flex",
+  "flex-direction": "column",
+  "padding-bottom": "50px"
+}
+    },
     critContainerMobile() {
       const margin2 = ((this.windowWidth - this.cardWidth)/100)
-      // const margin = (this.windowWidth/100).toString() + "px"
 
 
       return {
@@ -254,11 +266,12 @@ padding: 0;
   font-size: 14px
 }
 
-.shuffle {
+.button {
   width: 100px;
   height: 25px;
   cursor: pointer;
-  background: darkkhaki;
+  color: white;
+  background: url(http://api.thumbr.it/whitenoise-100x25.png?background=828a54ff&noise=d6d6d6&density=13&opacity=71);
   border-radius: 5px;
     padding-top: 5px;
   font-size: 14px;
@@ -283,7 +296,7 @@ padding: 0;
   margin-top: 2%;
   width: 320px;
   /* margin-left: 2%; */
-  background: rgb(172, 170, 199);
+  background: url(http://api.thumbr.it/whitenoise-320x600.png?background=1d5c75ff&noise=d6d6d6&density=13&opacity=71);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -361,6 +374,25 @@ padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center
+  }
+
+  .headerContainer {
+    font-size: 48px;
+  }
+
+  .FumbleTitle {
+      margin-top: 10px;
+      border-top: 3px solid darkslategrey;
+    }
+
+  @media (max-width: 320px) {
+    .headerContainer {
+      font-size: 36px
+    }
+
+    .header {
+      width: 100%
+    }
   }
 }
 </style>
