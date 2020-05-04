@@ -66,7 +66,7 @@ export default {
     },
     critContainerMobile() {
       const margin2 = ((this.windowWidth - this.cardWidth)/100)
-      const margin = (this.windowWidth/100).toString() + "px"
+      // const margin = (this.windowWidth/100).toString() + "px"
 
 
       return {
