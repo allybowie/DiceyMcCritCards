@@ -48,7 +48,9 @@ padding: 0;
     flex-direction: column;
     justify-content: space-evenly;
     color: white;
-    padding: 10px
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400
 }
 
 
