@@ -1,7 +1,11 @@
 <template>
   <div id="app" >
+    <div class="headerContainer">
+      <p class="header">Dicey McCrit Cards</p>
+    </div>
+    <div class="content">
     <div v-bind:style="[(windowWidth < 800) ? critContainerMobile : critHitContainer]">
-      <p class="hitTitle">Critical Hit</p>
+      <div class="titleContainer"><p class="hitTitle">Critical Hit</p></div>
       <div class="leftButtonContainer">
       <p v-on:click="drawCriticalHitCard" class="draw">Draw Card</p>
       <p class="cardCount">Cards Left: {{currentHitDeck().length}}</p>
@@ -14,7 +18,7 @@
     
     
       <div v-bind:style="[(windowWidth < 800) ? critContainerMobile : critFumbleContainer]">
-              <p class="FumbleTitle">Critical Fumble</p>
+              <div class="titleContainer"><p class="FumbleTitle">Critical Fumble</p></div>
 
         <div class="rightButtonContainer">
           <p v-on:click="drawCriticalFumbleCard" class="draw">Draw Card</p>
@@ -25,7 +29,7 @@
           <Critical-Fumble-Card :card="topCritFumbleCard"/>
         </div>
       </div>
-    
+    </div>
   </div>
 </template>
 
@@ -181,21 +185,51 @@ padding: 0;
   text-align: center;
   color: #2c3e50;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
   padding: 0
 }
 
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0
+}
+
+.headerContainer {
+  width: 100%;
+  /* text-align: center; */
+  font-family: 'Oswald', sans-serif;
+  font-size: 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: fit-content;
+  border-bottom: 3px solid darkslategrey;
+}
+
 .hitTitle {
   font-size: 36px;
   font-family: 'Oswald', sans-serif;
-  width: 100%;
+  width: fit-content;
+  border-bottom: 3px solid darkslategrey;
 }
 
 .FumbleTitle {
   font-size: 36px;
   font-family: 'Oswald', sans-serif;
+  width: fit-content;
+  border-bottom: 3px solid darkslategrey;
+}
+
+.titleContainer {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .critHitContainer {
@@ -228,7 +262,7 @@ padding: 0;
   border-radius: 5px;
     padding-top: 5px;
   font-size: 14px;
-  margin-left: 5px
+  /* margin-left: 5px */
 }
 
 .alert {
@@ -236,7 +270,7 @@ padding: 0;
 }
 
 .cardCount {
-  margin-left: 5px;
+  /* margin-left: 5px; */
   padding-top: 6px;
   width: 90px;
   height: 25px;
@@ -248,7 +282,7 @@ padding: 0;
   height: 600px;
   margin-top: 2%;
   width: 320px;
-  margin-left: 2%;
+  /* margin-left: 2%; */
   background: rgb(172, 170, 199);
   border-radius: 10px;
   display: flex;
@@ -256,21 +290,24 @@ padding: 0;
 }
 
 .leftButtonContainer {
-  width: 90%;
-  margin-left: 3%;
+  width: 320px;
+  /* margin-left: 3%; */
   margin-top: 2%;
   display: flex;
-  justify-content: space-between;
-  padding: 5px
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-bottom: 5px
+
 }
 
 .rightButtonContainer {
-  width: 90%;
-  margin-left: 4%;
+  width: 320px;
+  /* margin-left: 4%; */
   margin-top: 2%;
   display: flex;
-  justify-content: space-between;
-  padding: 5px
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-bottom: 5px
 }
 
 
@@ -320,7 +357,7 @@ padding: 0;
 } */
 
 @media (max-width: 800px) {
-  #app {
+  .content {
     display: flex;
     flex-direction: column;
     align-items: center
