@@ -152,10 +152,9 @@ export default {
               this.currentCritHitCard = this.critHitCards.splice(number, 1)[0]
 
             } else {
-                    // const number = Math.floor(Math.random() * this.critHitCards.length)
+                    const number = Math.floor(Math.random() * this.critHitCards.length)
 
-              // this.currentCritHitCard = this.critHitCards.splice(number, 1)[0]
-              this.currentCritHitCard = this.critHitCards[11]
+              this.currentCritHitCard = this.critHitCards.splice(number, 1)[0]
             }
 
 
@@ -279,7 +278,6 @@ padding: 0;
   border-radius: 5px;
     padding-top: 5px;
   font-size: 14px;
-  /* margin-left: 5px */
 }
 
 .alert {
@@ -287,7 +285,6 @@ padding: 0;
 }
 
 .cardCount {
-  /* margin-left: 5px; */
   padding-top: 6px;
   width: 90px;
   height: 25px;
@@ -299,7 +296,6 @@ padding: 0;
   height: 615px;
   margin-top: 2%;
   width: 320px;
-  /* margin-left: 2%; */
   background: url(http://api.thumbr.it/whitenoise-320x600.png?background=1d5c75ff&noise=d6d6d6&density=13&opacity=71);
   border-radius: 10px;
   display: flex;
@@ -308,7 +304,6 @@ padding: 0;
 
 .leftButtonContainer {
   width: 320px;
-  /* margin-left: 3%; */
   margin-top: 2%;
   display: flex;
   justify-content: space-evenly;
