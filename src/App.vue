@@ -78,7 +78,7 @@ export default {
   "margin-left": margin2.toString() + "px",
   "display": "flex",
   "flex-direction": "column",
-  "padding-bottom": "50px"
+  "padding-bottom": "30px"
 }
     },
     critContainerMobile() {
