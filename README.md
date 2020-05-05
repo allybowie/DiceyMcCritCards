@@ -1,4 +1,5 @@
-# dicey-mccrit-cards
+# Dicey CcCrit Cards
+### Author: Alastair Bowie
 
 ## Project setup
 ```
