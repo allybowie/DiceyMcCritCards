@@ -44,9 +44,13 @@ padding: 0;
         background: url(http://api.thumbr.it/whitenoise-320x200.png?background=f7e497ff&noise=ffffff&density=88&opacity=71);
         font-family: 'Oswald', sans-serif;
         width: 300px;
+        height: 146px;
         border-radius: 10px;
         margin-top: 10px;
-        text-align: left
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
     .nameContainer {
@@ -76,7 +80,6 @@ padding: 0;
         font-size: 16px;
         margin-left: 2%;
         font-weight: 200;
-        margin-bottom: 0px
     }
 
     .effect {

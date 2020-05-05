@@ -56,9 +56,9 @@ padding: 0;
 
 
 .container {
-    min-height: 80px;
-    height: fit-content;
-    width: 300px;
+    height: 615px;
+    display: flex;
+    flex-direction: column;
 }
 
 </style>
