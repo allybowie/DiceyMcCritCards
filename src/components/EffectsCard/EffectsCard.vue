@@ -45,6 +45,7 @@ padding: 0;
         font-family: 'Oswald', sans-serif;
         width: 300px;
         height: 146px;
+        max-height: 146px;
         border-radius: 10px;
         margin-top: 10px;
         text-align: left;
@@ -84,7 +85,7 @@ padding: 0;
 
     .effect {
         margin-top: 0px;
-        font-size: 18px;
+        font-size: 15px;
         margin-left: 2%;
         width: 95%;
         font-weight: 400;
