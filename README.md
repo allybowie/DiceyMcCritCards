@@ -1,4 +1,4 @@
-# Dicey CcCrit Cards
+# Dicey McCrit Cards
 ### Author: Alastair Bowie
 
 ## Project setup
